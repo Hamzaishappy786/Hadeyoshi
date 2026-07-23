@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+frontend/.vite/
+out/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+backend/venv/
+backend/.venv/
+venv/
+.env
+
+# Database & generated data
+backend/projects/*.db
+backend/projects/*.sqlite
+projects/
+exports/
+
+# Thumbnails & waveforms (regenerated on import)
+backend/thumbnails/
+backend/waveforms/
+
+# User project files (saved to Documents/VideoEditorProjects)
+*.vedit.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Electron packaged app
+release/
