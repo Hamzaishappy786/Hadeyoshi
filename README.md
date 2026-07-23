@@ -1,4 +1,4 @@
-# Video Editor
+# Video Editor (`Hadeyosh`)
 
 A personal desktop video editor I built because Adobe Premiere costs too much and I have trust issues with subscription software.
 
@@ -40,50 +40,6 @@ It's actually good though. Dark theme, timeline, preview, AI tools, the whole de
 
 ---
 
-## Setup
-
-You need Node.js, Python 3.10+, and FFmpeg installed. If you don't have FFmpeg, nothing will work and you will be sad.
-
-### 1. Clone it
-
-```bash
-git clone https://github.com/YOUR_USERNAME/video-editor.git
-cd video-editor
-```
-
-### 2. Install root and frontend dependencies
-
-```bash
-npm install
-cd frontend && npm install && cd ..
-```
-
-### 3. Set up the Python backend
-
-```bash
-cd backend
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-
-# Mac / Linux
-source venv/bin/activate
-
-pip install -r requirements.txt
-cd ..
-```
-
-### 4. Run it
-
-```bash
-npm start
-```
-
-This starts the FastAPI backend, the Vite dev server, and Electron all at once. Give it about 10 seconds on first run.
-
----
-
 ## Project files
 
 Projects are saved as `.vedit.json` files in:
@@ -110,15 +66,6 @@ The folder gets created automatically the first time you hit Save. The JSON just
 | Export | Ctrl+E |
 
 ---
-
-## Notes
-
-- Whisper (auto-subtitles) loads on first use, not on startup. First time you click Auto-Subtitle it'll take a moment to load the model.
-- Background removal via rembg is included in the backend but needs a decent GPU to not take forever.
-- The exports folder is gitignored because nobody wants your renders in their clone.
-
----
-
 ## License
 
 MIT. Do whatever you want with it. If you somehow make money off this I'm proud of you.
