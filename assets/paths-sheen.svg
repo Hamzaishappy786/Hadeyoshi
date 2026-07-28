@@ -22,7 +22,7 @@
   <text font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" fill="#c9d1d9">
     <tspan x="18" y="26">
       <tspan fill="#8b949e">Windows: </tspan>
-      <tspan fill="#79c0ff">C:UsersYOUDocumentsVideoEditorProjects</tspan>
+      <tspan fill="#79c0ff">C:\Users\YOU\Documents\VideoEditorProjects</tspan>
     </tspan>
     <tspan x="18" y="52">
       <tspan fill="#8b949e">Mac/Linux: </tspan>
