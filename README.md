@@ -58,10 +58,7 @@ It's actually good though. Dark theme, timeline, preview, AI tools, the whole de
 
 Projects are saved as `.vedit.json` files in:
 
-```
-Windows: C:\Users\YOU\Documents\VideoEditorProjects
-Mac/Linux: ~/Documents/VideoEditorProjects
-```
+<p><img src="assets/paths-sheen.svg" alt="Project paths" /></p>
 
 The folder gets created automatically the first time you hit Save. The JSON just stores references to your media file paths and your timeline state, so don't move your source videos around or the editor won't find them.
 
