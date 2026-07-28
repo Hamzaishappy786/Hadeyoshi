@@ -1,11 +1,25 @@
-# Video Editor (`Hadeyoshi`)
+<p align="center">
+  <img src="assets/Gemini_Generated_Image_fm3smlfm3smlfm3s.png" width="120" alt="Hadeyoshi" />
+</p>
 
-A personal desktop video editor I built because Adobe Premiere costs too much and I have trust issues with subscription software.
+<h1 align="center">Hadeyoshi</h1>
+
+<p align="center">
+  A personal desktop video editor I built because Adobe Premiere costs too much<br/>
+  and I have trust issues with subscription software.
+</p>
+
+<p align="center">
+  <img src="screenshots/splash.png" alt="Splash Screen" width="700" />
+</p>
+
+<p align="center">
+  <img src="screenshots/editor.png" alt="Editor" width="700" />
+</p>
+
+---
 
 It's actually good though. Dark theme, timeline, preview, AI tools, the whole deal. Built with Electron so it's a real app and not another "just open it in Chrome" situation.
-
-![Splash Screen](screenshots/splash.png)
-![Editor](screenshots/editor.png)
 
 ---
 
