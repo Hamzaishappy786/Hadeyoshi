@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon-sheen.svg" width="120" alt="Hadeyoshi" />
+  <img src="assets/icon-sheen.svg" width="180" alt="Hadeyoshi" />
 </p>
 
 <h1 align="center">Hadeyoshi</h1>
