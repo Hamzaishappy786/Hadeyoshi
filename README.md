@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Gemini_Generated_Image_fm3smlfm3smlfm3s.png" width="120" alt="Hadeyoshi" />
+  <img src="assets/icon.png" width="120" alt="Hadeyoshi" />
 </p>
 
 <h1 align="center">Hadeyoshi</h1>
