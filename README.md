@@ -1,4 +1,4 @@
-# Video Editor (`Hadeyosh`)
+# Video Editor (`Hadeyoshi`)
 
 A personal desktop video editor I built because Adobe Premiere costs too much and I have trust issues with subscription software.
 
