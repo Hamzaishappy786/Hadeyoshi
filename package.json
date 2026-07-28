@@ -9,12 +9,52 @@
     "frontend": "cd frontend && npm run dev",
     "backend": "cd backend && python -m uvicorn main:app --port 8000 --reload",
     "build": "cd frontend && npm run build",
+    "build:win": "npm run build && electron-builder --win",
+    "build:mac": "npm run build && electron-builder --mac",
     "pack": "electron-builder"
   },
+  "build": {
+    "appId": "com.hadeyosh.videoeditor",
+    "productName": "Hadeyosh",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "electron/**/*",
+      "frontend/dist/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "backend",
+        "to": "backend",
+        "filter": [
+          "**/*",
+          "!venv/**",
+          "!__pycache__/**",
+          "!*.pyc",
+          "!projects/*.db"
+        ]
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico",
+      "signAndEditExecutable": false
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "assets/icon.icns"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
   "devDependencies": {
-    "electron": "^29.0.0",
-    "electron-builder": "^24.0.0",
     "concurrently": "^8.0.0",
+    "electron": "^29.0.0",
+    "electron-builder": "^24.13.3",
     "wait-on": "^7.0.0"
   }
 }
