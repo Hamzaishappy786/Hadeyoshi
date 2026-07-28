@@ -44,17 +44,21 @@
     },
     "mac": {
       "target": "dmg",
-      "icon": "assets/icon.icns"
+      "icon": "assets/icon.ico"
     },
     "nsis": {
       "oneClick": false,
-      "allowToChangeInstallationDirectory": true
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "assets/icon.ico",
+      "uninstallerIcon": "assets/icon.ico",
+      "installerHeaderIcon": "assets/icon.ico"
     }
   },
   "devDependencies": {
     "concurrently": "^8.0.0",
     "electron": "^29.0.0",
     "electron-builder": "^24.13.3",
+    "png-to-ico": "^3.0.2",
     "wait-on": "^7.0.0"
   }
 }
